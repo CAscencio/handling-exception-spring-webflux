@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class HandlingExceptionSpringWebfluxApplication {
+public class HandlingExceptionApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(HandlingExceptionSpringWebfluxApplication.class, args);
+        SpringApplication.run(HandlingExceptionApplication.class, args);
     }
 
 }

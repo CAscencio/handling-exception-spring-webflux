@@ -1,0 +1,10 @@
+package com.ascencio.dev.exception;
+
+public class ConflictException extends RuntimeException {
+
+    private static final String DESCRIPTION = "Conflict Exception";
+
+    public ConflictException(String detail) {
+        super(String.format("%s - %s", DESCRIPTION, detail));
+    }
+}
